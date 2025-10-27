@@ -10,10 +10,16 @@ import {
 import { authInterceptor } from './core/auth.interceptor';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { providePrimeNG } from 'primeng/config';
+import Aura from '@primeuix/themes/aura';
+import { definePreset } from '@primeuix/themes';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new (TranslateHttpLoader) (http, './assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
+
+definePreset(Aura);
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -30,5 +36,11 @@ export const appConfig: ApplicationConfig = {
         defaultLanguage: 'en',
       })
     ),
+    provideAnimationsAsync(),
+    providePrimeNG({
+      theme: {
+        preset: Aura,
+      },
+    }),
   ],
 };
