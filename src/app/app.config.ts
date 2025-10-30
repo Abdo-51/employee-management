@@ -7,7 +7,7 @@ import {
   provideHttpClient,
   withInterceptors,
 } from '@angular/common/http';
-import { authInterceptor } from './core/auth.interceptor';
+import { authInterceptor } from './core/interceptor/auth.interceptor';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
@@ -33,7 +33,7 @@ export const appConfig: ApplicationConfig = {
           useFactory: HttpLoaderFactory,
           deps: [HttpClient],
         },
-        defaultLanguage: 'en',
+          fallbackLang: 'en',
       })
     ),
     provideAnimationsAsync(),

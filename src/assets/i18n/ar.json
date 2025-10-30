@@ -1,4 +1,11 @@
 {
+  "NAV": {
+    "TITLE": " معلومات الموظف",
+    "Welcome": "مرحبًا",
+    "English": "en",
+    "ar": "ar",
+    "Logout": "تسجيل خروج"
+  },
   "LOGIN": {
     "TITLE": "تسجيل الدخول",
     "EMAIL": "البريد الإلكتروني",
@@ -9,5 +16,22 @@
     "LOADING": "جاري التحميل...",
     "NO_ACCOUNT": "ليس لديك حساب؟",
     "SIGNUP": "سجل الآن"
+  },
+  "SIGNUP": {
+    "TITLE": "إنشاء حساب",
+    "FULLNAME": "الاسم الكامل",
+    "EMAIL": "البريد الإلكتروني",
+    "PASSWORD": "كلمة المرور",
+    "CONFIRM_PASSWORD": "تأكيد كلمة المرور",
+    "PLACEHOLDER_FULLNAME": "أدخل الاسم الكامل",
+    "PLACEHOLDER_EMAIL": "أدخل البريد الإلكتروني",
+    "PLACEHOLDER_PASSWORD": "أدخل كلمة المرور",
+    "PLACEHOLDER_CONFIRM_PASSWORD": "أعد إدخال كلمة المرور",
+    "BUTTON": "إنشاء حساب",
+    "LOADING": "جاري الإنشاء...",
+    "HAVE_ACCOUNT": "هل لديك حساب؟",
+    "LOGIN_LINK": "تسجيل الدخول"
   }
 }
+
+

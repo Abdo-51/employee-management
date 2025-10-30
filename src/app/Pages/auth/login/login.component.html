@@ -1,17 +1,27 @@
 <div class="container px-5">
     <div class="card p-4 mx-auto mt-5" style="max-width: 400px;">
-        <h2 class="text-center mb-4">Login</h2>
-        <form >
+        <h2 class="text-center mb-4">{{ 'LOGIN.TITLE' | translate }}</h2>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
             <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                <label for="email" class="form-label">{{ 'LOGIN.EMAIL' | translate }}</label>
+                <input type="email" formControlName="email" class="form-control" id="email" placeholder="Enter email">
             </div>
             <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password" class="form-label">{{ 'LOGIN.PASSWORD' | translate }}</label>
+                <input type="password" formControlName="password" class="form-control" id="password" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <button type="submit" class="btn btn-primary w-100" >
+                @if (isLoading()) {
+                    <span class="spinner-border spinner-border-sm me-2"></span>
+                    {{ 'LOGIN.LOADING' | translate }}
+                } @else {
+                    {{ 'LOGIN.TITLE' | translate }}
+                }
+                </button>
         </form>
-        
+        <p class="mt-3 text-center">
+            {{ 'LOGIN.NO_ACCOUNT' | translate }}
+            <a routerLink="/signup">{{ 'LOGIN.SIGNUP' | translate }}</a>
+        </p>
     </div>
 </div>

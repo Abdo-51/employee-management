@@ -1,4 +1,11 @@
 {
+  "NAV": {
+    "TITLE": "Employee Dashboard",
+    "Welcome": "Welcome, ",
+    "English": "en",
+    "ar": "ar",
+    "Logout": "Logout"
+  },
   "LOGIN": {
     "TITLE": "Login",
     "EMAIL": "Email address",
@@ -9,5 +16,21 @@
     "LOADING": "Loading...",
     "NO_ACCOUNT": "No account?",
     "SIGNUP": "Sign Up"
+  },
+    "SIGNUP": {
+    "TITLE": "Sign Up",
+    "FULLNAME": "Full Name",
+    "EMAIL": "Email address",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "PLACEHOLDER_FULLNAME": "Enter full name",
+    "PLACEHOLDER_EMAIL": "Enter email",
+    "PLACEHOLDER_PASSWORD": "Enter password",
+    "PLACEHOLDER_CONFIRM_PASSWORD": "Re-enter password",
+    "BUTTON": "Create Account",
+    "LOADING": "Creating...",
+    "HAVE_ACCOUNT": "Already have an account?",
+    "LOGIN_LINK": "Login"
   }
+
 }

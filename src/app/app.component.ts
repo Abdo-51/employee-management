@@ -1,25 +1,26 @@
 import { Component, inject } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
+import { Router, RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './layouts/navbar/navbar.component';
+import { languageService } from './shared/language.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+  imports: [RouterOutlet , NavbarComponent],
+templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'employee-management';
-  translate = inject(TranslateService);
+  router = inject(Router);
+  lang = inject(languageService);
 
-  constractor() {
-    this.translate.addLangs(['en', 'ar']);
-    this.translate.setDefaultLang('en');
+
+  constructor() {
+    this.lang.setLanguage(this.lang.currentLanguage);
   }
 
   setLang(lang: string) {
-    this.translate.use(lang);
-    document.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    this.lang.setLanguage(lang);
   }
 }
