@@ -31,6 +31,45 @@
     "LOADING": "Creating...",
     "HAVE_ACCOUNT": "Already have an account?",
     "LOGIN_LINK": "Login"
+  },
+ "DASHBOARD": {
+    "TITLE": "Employee Dashboard",
+    "EMPLOYEES": "Employees",
+    "ADD_EMPLOYEE": "Add Employee",
+    "SEARCH_PLACEHOLDER": "Search employees...",
+    "New_Title": "Welcome to the employee management system!"
+  },
+  "EMPLOYEE_LIST": {
+    "ID": "ID",
+    "NAME": "Name",
+    "POSITION": "Position",
+    "DEPARTMENT": "Department",
+    "ACTIONS": "Actions",
+    "EDIT": "Edit",
+    "Email": "Email",
+    "DELETE": "Delete",
+    "Salary": "Salary",
+    "EMPLOYEES": "Employees",
+    "ADD_EMPLOYEE": "Add Employee",
+    "NO_EMPLOYEES": "No employees found."
+  },
+  "EMPLOYEE_FORM": {
+    "ADD_EMPLOYEE": "Add New Employee",
+    "EDIT_EMPLOYEE": "Edit Employee",
+    "BACK_TO_LIST": "Back to Employee List",
+    "NAME": "Name",
+    "POSITION": "Position",
+    "DEPARTMENT": "Department",
+    "EMAIL": "Email",
+    "SALARY": "Salary",
+    "PLACEHOLDER_NAME": "Enter name",
+    "PLACEHOLDER_POSITION": "Enter position",
+    "PLACEHOLDER_DEPARTMENT": "Enter department",
+    "PLACEHOLDER_EMAIL": "Enter email",
+    "PLACEHOLDER_SALARY": "Enter salary",
+    "SUBMIT_BUTTON": "Submit",
+    "CANCEL_BUTTON": "Cancel",
+    "LOADING": "Submitting..."
   }
 
 }

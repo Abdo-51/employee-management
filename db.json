@@ -6,6 +6,71 @@
       "email": "Aa@gmail.com",
       "password": "Abdo12345",
       "confirmPassword": "Abdo12345"
+    },
+    {
+      "id": "9cb6",
+      "username": "Mai",
+      "email": "Mai@gmail.com",
+      "password": "Mai12345",
+      "confirmPassword": "Mai12345"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ali Hassan",
+      "email": "ali@gmail.com",
+      "department": "IT",
+      "salary": 7000
+    },
+    {
+      "id": 2,
+      "name": "Sara Ahmed",
+      "email": "sara@gmail.com",
+      "department": "HR",
+      "salary": 8500
+    },
+    {
+      "id": 3,
+      "name": "Yousef Mohamed",
+      "email": "Yousef@gmail.com",
+      "department": "IT",
+      "salary": 5000
+    },
+    {
+      "id": 4,
+      "name": "Mohamed Ahmed",
+      "email": "Mohamed@gmail.com",
+      "department": "IT",
+      "salary": 6000
+    },
+    {
+      "id": 5,
+      "name": "Momen Mahmoud",
+      "email": "Momen@gmail.com",
+      "department": "IT",
+      "salary": 7000
+    },
+    {
+      "id": 6,
+      "name": "Islam Ahmed",
+      "email": "Eslam@gmail.com",
+      "department": "IT",
+      "salary": 6500
+    },
+    {
+      "id": 7,
+      "name": "Hussien ",
+      "email": "Hussien@gmail.com",
+      "department": "administration",
+      "salary": "9000"
+    },
+    {
+      "id": 8,
+      "name": "Sari ",
+      "email": "Sari@gmail.com",
+      "department": "HR",
+      "salary": "10000"
     }
   ]
 }

@@ -16,6 +16,9 @@ export class languageService {
   setLanguage(lang: string) {
     this.translate.use(lang);
     document.dir = lang === 'ar' ? 'rtl' : 'ltr'; 
+
+    document.body.classList.remove('rtl', 'ltr');
+    document.body.classList.add(lang === 'ar' ? 'rtl' : 'ltr');
   }
 
   get currentLanguage() {

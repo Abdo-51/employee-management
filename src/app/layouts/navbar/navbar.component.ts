@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, inject, signal } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { AuthService } from '../../core/services/auth.service';
 import { languageService } from '../../shared/language.service';
 
 @Component({
   selector: 'app-navbar',
-  imports: [CommonModule , TranslateModule],
+  imports: [CommonModule, TranslateModule, RouterLink],
   standalone: true,
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'

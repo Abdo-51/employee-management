@@ -31,6 +31,28 @@
     "LOADING": "جاري الإنشاء...",
     "HAVE_ACCOUNT": "هل لديك حساب؟",
     "LOGIN_LINK": "تسجيل الدخول"
+  },
+  "DASHBOARD": {
+    "TITLE": " معلومات الموظف",
+    "EMPLOYEES": "الموظفين",
+    "ADD_EMPLOYEE": "إضافة موظف",
+    "SEARCH_PLACEHOLDER": "ابحث عن الموظفين...",
+    "New_Title": "مرحبًا بك في نظام إدارة الموظفين!"
+},
+  "EMPLOYEE_LIST": {
+    "ID": " المعرف",
+    "NAME": " الاسم",
+    "POSITION": " المنصب",
+    "DEPARTMENT": "القسم",
+    "ACTIONS": " الإجراءات",
+    "EDIT": " تعديل",
+    "DELETE": " حذف",
+    "Salary": "الراتب",
+        "Email": "البريد الإلكتروني",
+        "EMPLOYEES": "الموظفين",
+    "ADD_EMPLOYEE": "إضافة موظف",
+
+    "NO_EMPLOYEES": "لا يوجد موظفين."
   }
 }
 
